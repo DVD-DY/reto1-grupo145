@@ -1,12 +1,25 @@
 body{
     width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .noticias{
+    padding-top: 10px;
     background-color: #4285f4;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.noticia{
+    display: flex;
+    text-align: left;
 }
 .miembros{
     background-color: #34a853;
+    display: flex;
+    justify-content: space-evenly;
 }
 .footer{
     background-color: #ea4335;
+    display: flex;
 }
