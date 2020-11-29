@@ -1,23 +1,31 @@
 body{
+    font-family:'Roboto', sans-serif;
+
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
 }
 .noticias{
-    padding-top: 10px;
     background-color: #4285f4;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
 .noticia{
+    padding: 10px;
     display: flex;
     text-align: left;
 }
+
 .miembros{
     background-color: #34a853;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+}
+.miembro{
+    width: 25%;
+    padding: 10px;
 }
 .footer{
     background-color: #ea4335;
