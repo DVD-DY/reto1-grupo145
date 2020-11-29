@@ -1,12 +1,15 @@
 body{
     font-family:'Roboto', sans-serif;
-
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
 }
+a{
+    color: white;
+}
 .noticias{
     background-color: #4285f4;
+    color: white;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -19,6 +22,7 @@ body{
 
 .miembros{
     background-color: #34a853;
+    color: white;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -28,6 +32,15 @@ body{
     padding: 10px;
 }
 .footer{
+    color: white;
+    padding: 10px;
     background-color: #ea4335;
     display: flex;
+}
+.footer_left{
+    width: 30%;
+}
+.footer_right{
+    width: 70%;
+    text-align: right;
 }
