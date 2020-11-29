@@ -12,44 +12,45 @@
 
 <body>
     <!-- inicio header parte superior -->
-    <header>
+    <header class="header">
         <!-- titulo y menu -->
-        <section>
-            <div>
+        <section class="top-bar">
+            <div class="titulo-principal">
                 <h1>Google</h1>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#services">SERVICIOS</a></li>
-                    <li><a href="#news">NOTICIAS</a></li>
-                    <li><a href="#team">MIEMBROS</a></li>
+            <nav class="menu-container">
+                <ul class="menu">
+                    <li><a href="#" style="text-decoration: none">INICIO</a></li>
+                    <li><a href="#services" style="text-decoration: none">SERVICIOS</a></li>
+                    <li><a href="#news" style="text-decoration: none">NOTICIAS</a></li>
+                    <li><a href="#team" style="text-decoration: none">MIEMBROS</a></li>
                 </ul>
             </nav>
         </section>
         <!-- banner con la imagen -->
         <section>
+            <img src="./imagen/Googlebuild.jpg" width="1200" alt="">
 
         </section>
     </header>
     <!-- inicio del main donde estan servicios noticias y miembros -->
     <main>
         <!-- inicio de servicios -->
-        <section id="services">
-            <div>
-                <img src="" alt="">
-                <p></p>
-                <a href=""></a>
+        <section id="services" class="servicios">
+            <div class="servicios-items">
+                <img src="./imagen/mapslogo.png" width="250" height="250" alt="logoGoogleMaps">
+                <p>Navegacion GPS, informacion sobre trafico y lugares para descubrir cerca de ti.</p>
+                <a href="https://www.google.com.co/maps/">Pruebalo</a>
             </div>
-            <div>
-                <img src="" alt="">
-                <p></p>
-                <a href=""></a>
+            <div class="servicios-items">
+                <img src="./imagen/tradlogo.png" width="250" alt="logoGoogleTraductor">
+                <p>habla, escanea, escribe o dibuja para traducir contenidos a mas de 100 idiomas.</p>
+                <a href="https://translate.google.com/?hl=es">Pruebalo</a>
             </div>
-            <div>
-                <img src="" alt="">
-                <p></p>
-                <a href=""></a>
+            <div class="servicios-items">
+                <img src="./imagen/chromelogo.png" width="250" alt="logoGoogleChrome">
+                <p>Un navegador rapido, sencillo y seguro para todos tus dispositivos.</p>
+                <a href="https://www.google.com/intl/es-419/chrome/">Pruebalo</a>
             </div>
         </section>
         <!-- inicio de noticias -->
